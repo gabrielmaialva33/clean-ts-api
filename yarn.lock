@@ -1960,9 +1960,9 @@ getpass@^0.1.1:
     assert-plus "^1.0.0"
 
 git-commit-msg-linter@^2.5.2:
-  version "2.5.2"
-  resolved "https://registry.yarnpkg.com/git-commit-msg-linter/-/git-commit-msg-linter-2.5.2.tgz#0f8a7d4ee2b602a188240e47790bb0817d509f52"
-  integrity sha512-baSyZ4K7M6kVYGuiMsXCkf8ZbvKD1iNt0lJaqk06zJSdSJr3CIQ0dPeWl9N2iTVn62bp0ER3tKAU2iUGvJKaZQ==
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/git-commit-msg-linter/-/git-commit-msg-linter-2.5.3.tgz#a1fdebd64ffe8db2825cd55452f57736285ef1a8"
+  integrity sha512-G/03EMGBZzJFw42zEs8mqVsRBM2RpYTPdYglibR+nxjX3L5qJxjkrR7kl09704pV1xq4q9bq3UdqxDJnggl6Hw==
   dependencies:
     chalk "^2.4.2"
 
@@ -4488,9 +4488,9 @@ unset-value@^1.0.0:
     isobject "^3.0.0"
 
 uri-js@^4.2.2:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/uri-js/-/uri-js-4.2.2.tgz#94c540e1ff772956e2299507c010aea6c8838eb0"
-  integrity sha512-KY9Frmirql91X2Qgjry0Wd4Y+YTdrdZheS8TFwvkbLWf/G5KNJDCh6pKL5OZctEW4+0Baa5idK2ZQuELRwPznQ==
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/uri-js/-/uri-js-4.4.0.tgz#aa714261de793e8a82347a7bcc9ce74e86f28602"
+  integrity sha512-B0yRTzYdUCCn9n+F4+Gh4yIDtMQcaJsmYBDsTSG8g/OejKBodLQ2IHfN3bM7jUsRXndopT7OIXWdYqc1fjmV6g==
   dependencies:
     punycode "^2.1.0"
 
