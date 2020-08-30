@@ -5,8 +5,8 @@
   "author": "Gabriel Maia <gabrielmaialva33@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests"
   },
   "devDependencies": {
     "@types/jest": "^26.0.10",
