@@ -10,6 +10,7 @@ interface SutTypes {
 
 const makeSut = (): SutTypes => {
   class EmailValidatorStub implements EmailValidator {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     isValid(email: string): boolean {
       return true;
     }
@@ -108,5 +109,22 @@ describe('SignUp Controller', () => {
 
     expect(httpResponse.statusCode).toBe(400);
     expect(httpResponse.body).toEqual(new InvalidParamError('email'));
+  });
+
+  test('Should call EmailValidator with corret email', () => {
+    const { sut, emailValidatorStub } = makeSut();
+
+    const isValidSpy = jest.spyOn(emailValidatorStub, 'isValid');
+    const httpResquest = {
+      body: {
+        name: 'any_name',
+        email: 'any_email@mail.com',
+        password: 'any_password',
+        passwordConfirmation: 'any_password',
+      },
+    };
+
+    sut.handle(httpResquest);
+    expect(isValidSpy).toHaveBeenCalledWith('any_email@mail.com');
   });
 });
