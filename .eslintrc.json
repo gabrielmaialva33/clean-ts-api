@@ -21,6 +21,7 @@
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
     "no-restricted-syntax": "off",
+    "max-classes-per-file": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "import/extensions": [
       "error",
